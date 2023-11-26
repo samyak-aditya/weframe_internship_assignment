@@ -6,9 +6,9 @@
 
 ## To Run Unit Tests:
 
-### Execute the command **npm test** in the terminal to run the unit tests.
+ ### Execute the command **"npm test"** in the terminal to run the unit tests.
 
-### To Start the server Execute the command **npm start** in the terminal.
+ ### To Start the server Execute the command **"npm start"** in the terminal.
 
 **_NOTE:_**: The tester needs to pass the token in the Authorization header with the format: "Bearer [token]" or use the string "mockToken" for testing purposes.
 Ensure that the Authorization header is correctly set in all authenticated requests.It is recommended to test the endpoints in the specified order (signup, login, and then other endpoints) to ensure proper authentication.
